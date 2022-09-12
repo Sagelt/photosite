@@ -1,0 +1,12 @@
+title: Family Photos
+
+collections:
+  photos:
+    output: true
+
+defaults:
+  - scope:
+      path: "_photos/**/*.md"
+    values:
+      layout: "photo"
+
